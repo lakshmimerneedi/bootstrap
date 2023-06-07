@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel-item img{ 
+     height: 100vh;
+}
+.about-img img{
+    height: 300px;
+    width: 100%;
+}
+.card-img-top{
+
+    height: 300px;
+}
+.image-item img{
+    width: 100%;
+    height: 300px;
+}
+#pills-tab{
+justify-content: center;
+}
+li{
+    list-style: none;
+    color: black;
+
+}
+.bullets-remove li::before{
+    content: "\f101";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 10px ;
+    color: brown;
+}
+.bullets-remove,.accordian-style,.accordian-fonts li{
+    font-size: 20px;
+
+}
+.accordian-style li::before{
+    content: "\f04e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 10px ;
+    color: blue;
+}
+.accordian-fonts li::before{
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 10px;
+    color: black;
+}
+
