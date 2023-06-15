@@ -150,3 +150,17 @@ li{
     color: red;
     transition: all 0.6s ease-in-out;
 }
+.heading{
+    display: none;
+    position: relative;
+}
+.heading-hide{
+    display: block;
+}
+.marking{
+    position: absolute;
+    top: 70px;
+    right: 250px;
+
+}
+
